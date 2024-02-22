@@ -2,11 +2,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #E9C46A;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5E5E5;
+
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
 h1 {
-    color: #264653;
+    margin: 10px;
+    color: #000000;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 700px;
 }
 .contenedor {
     display: flex;
@@ -18,8 +26,8 @@ h1 {
     height: 600px;
     width: 600px;
     background-color: #F4A261;
-    border: 3px solid #E76F51;
-    border-radius: 2px;
+    border: 6px solid #14213D;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -28,7 +36,7 @@ h1 {
 #contendorBotones {
     height: 600px;
     width: 300px;
-    background-color: #F4A261;
-    border: 3px solid #E76F51;
+    background-color: #FCA311;
+    border: 6px solid #14213D;
     border-radius: 20px;
 }
