@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E9C46A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #264653;
+}
+.contenedor {
+    display: flex;
+}
+.contenedor *{
+    margin: 10px;
+}
+#contenedorPizarra {
+    height: 600px;
+    width: 600px;
+    background-color: #F4A261;
+    border: 3px solid #E76F51;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+#contendorBotones {
+    height: 600px;
+    width: 300px;
+    background-color: #F4A261;
+    border: 3px solid #E76F51;
+    border-radius: 20px;
+}
