@@ -16,7 +16,7 @@ function gridSize(size){
         contenedorPrincipal.appendChild(divPadre);
     }
 }
-
+gridSize(10);
 
 let reset = document.querySelector('#reset');
 reset.addEventListener('click', () => {
