@@ -8,7 +8,6 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
 }
-
 h1 {
     margin: 10px;
     color: #000000;
@@ -39,4 +38,47 @@ h1 {
     background-color: #FCA311;
     border: 6px solid #14213D;
     border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+.controlBox {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controlBox > * {
+    align-items: center;
+}
+#box {
+    display: flex;
+    flex-direction: column;
+}
+#gridSize {
+    display: flex;
+    margin-top: 0px;
+}
+h2 {
+    font-size: 30px;
+}
+#reset, #erase, #pen, #color {
+    padding: 20px 50px;
+}
+#accept {
+    padding: 10px 40px;
+}
+input {
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+button {
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 80px;
+    background-color: rgb(250, 234, 86);
+    border-radius: 10px;
 }

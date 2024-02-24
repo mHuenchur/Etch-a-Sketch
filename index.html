@@ -17,13 +17,31 @@
         <h1>Etch a Sketch!</h1>
         <div class="contenedor">
             <div id="contendorBotones">
-                <h2>Grid size</h2>
-                <input id="size">
-                <button id="accept">Accept</button>
-                <button id="reset">Reset</button>
-                <button id="erase">Eraser</button>
-                <button id="pen">Pen</button>
-                <button id="color">Colors</button>
+
+                <div class="controlBox" id="box">
+                    <h2 id="el">Grid size</h2>
+                    <div id="gridSize">
+                        <input id="size">
+                        <button id="accept">Accept</button>
+                    </div>
+                </div>
+
+                <div class="controlBox">
+                    <button id="reset">Reset</button>
+                </div>
+
+                <div class="controlBox">
+                    <button id="erase">Eraser</button>
+                </div>
+
+                <div class="controlBox">
+                    <button id="pen">Pen</button>
+                </div>
+
+                <div class="controlBox">
+                    <button id="color">Colors</button>
+                </div>
+                
             </div>
             <div id="contenedorPizarra">
 
